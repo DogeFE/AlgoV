@@ -1,0 +1,15 @@
+{
+  "useWorkspaces": true,
+  "version": "0.1.0",
+  "npmClient": "yarn",
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "ignoreChanges": [".gitignore", "*.log", "*.md"]
+    },
+    "bootstrap": {
+      "ignore": "npm-*",
+      "npmClientArgs": ["--no-package-lock"]
+    }
+  }
+}

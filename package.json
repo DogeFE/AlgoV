@@ -1,4 +1,5 @@
 {
+  "name": "AlgoV",
   "private": true,
   "version": "0.0.0",
   "license": "MIT",
@@ -6,6 +7,7 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "yarn workspaces run build",
     "lint": "eslint --ext .ts packages/*/src/**.ts",
     "format": "prettier --write --parser typescript \"packages/**/*.ts?(x)\"",
     "prepare": "husky install"
@@ -29,6 +31,7 @@
     "@typescript-eslint/parser": "^4.28.3",
     "eslint": "^7.30.0",
     "husky": "^7.0.1",
+    "lerna": "^4.0.0",
     "lint-staged": "^11.0.1",
     "prettier": "^2.3.2",
     "typescript": "^4.1.3"
