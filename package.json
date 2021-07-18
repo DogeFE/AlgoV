@@ -7,7 +7,9 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "yarn workspaces run build",
+    "vue": "yarn workspace @algov/vue run build",
+    "react": "yarn workspace @algov/react run build",
+    "build": "yarn && yarn workspaces run build",
     "lint": "eslint --ext .ts packages/*/src/**.ts",
     "format": "prettier --write --parser typescript \"packages/**/*.ts?(x)\"",
     "prepare": "husky install"

@@ -4,14 +4,14 @@
 
 ## 组成
 * algov-core：应用 headless UI 的思想，将算法和数据结构的逻辑和数据剥离出来，方便跨平台、跨框架实现。
-* @algov-vue：用 vue 实现 UI 和交互的部分
-* @algov-react：用 react 实现 UI 和交互的部分
+* algov-vue：用 vue 实现 UI 和交互的部分
+* algov-react：用 react 实现 UI 和交互的部分
 
 ### core
 这部分是最复杂的，需要一起讨论整个粒度需要拆分都多细。
 
 可以参考
-* https://headlessui.dev/vue/disclosure 
+* https://headlessui.dev
 * https://github.com/tailwindlabs/headlessui/
 
 
