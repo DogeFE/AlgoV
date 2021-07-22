@@ -13,6 +13,8 @@
 可以参考
 * https://headlessui.dev
 * https://github.com/tailwindlabs/headlessui/
+* https://medium.com/cstech/headless-ui-components-creating-re-usable-logic-without-thinking-about-design-69ac9fad6400
+* https://www.merrickchristensen.com/articles/headless-user-interface-components/
 
 
 ## 计划
